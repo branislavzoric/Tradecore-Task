@@ -6,8 +6,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.color import Color
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.support.ui import Select
-from features.pages.sign_up_page import Locators, Elements
+from features.pages.registration_page import Locators, Elements
 
 
 @given('Go to Tradecore site')
