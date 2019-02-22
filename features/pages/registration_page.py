@@ -3,7 +3,6 @@ import string
 
 
 class Locators(object):
-
     _next_button = '#button-step'
     _path_error_required = "[class='help-block ng-active']"
     _path_error_not_valid = "//div[contains(text(), 'This field is not valid')]"
@@ -21,8 +20,8 @@ class Locators(object):
     _path_zip_code = "[id=form-addr_zip]"
     _path_city = "[id=form-addr_city]"
 
-class Elements(object):
 
+class Elements(object):
     _URL = "https://demo-biq.dev.tradecore.io/#/"
     _error_message_required = "THIS FIELD IS REQUIRED"
     _error_message_not_valid = "THIS FIELD IS NOT VALID"
