@@ -61,7 +61,7 @@ Feature: Tradecore app failed
         Then Address field returns an error message
     Examples:
         | address |
-        | Bore Markovica 13>15 |
+        | Trebevicka 29 |
         | test< |
 
     Scenario: Postcode is missing
